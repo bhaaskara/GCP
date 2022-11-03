@@ -6,3 +6,5 @@
 - Intelligence, not data processing 
   
 # GCP Storage
+# GCP Acivity Logs
+GCP -> Project -> Acitvity
