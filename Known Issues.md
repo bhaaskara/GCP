@@ -8,3 +8,7 @@ i.e `bq.cmd ls`
 ## Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
 
 need to check for the solution
+
+# VPC
+## Firewall rules
+Default source range: When you omit a source specification in an ingress rule, Google Cloud uses the default source IPv4 address range **0.0.** **0.0/0** (any IPv4 address). The default value does not include IPv6 sources.
