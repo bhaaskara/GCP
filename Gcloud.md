@@ -33,7 +33,12 @@ The latest available version is: 412.0.0
 |      Status      |                         Name                         |            ID            |   Size   |
 +------------------+------------------------------------------------------+--------------------------+----------+
 | Update Available | BigQuery Command Line Tool                           | bq                       |  1.6 MiB |
-| Update Available | Cloud Storage Command Line Tool                      | gsutil                   | 15.5 MiB |
+| Update Available | Cloud Storage Command Line Tool                      | 
+gsutil                   | 15.5 MiB |
 | Update Available | Google Cloud CLI Core Libraries                      | core                     | 25.9 MiB |
 ```
 
+# Cloud storage
+
+List all the buckets, folder and objects in a project
+`gsutil -o GSUtil:default_project_id=bt-gbl-pe-hws-dpn-dp-test du -shc`

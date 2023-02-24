@@ -12,3 +12,8 @@ need to check for the solution
 # VPC
 ## Firewall rules
 Default source range: When you omit a source specification in an ingress rule, Google Cloud uses the default source IPv4 address range **0.0.** **0.0/0** (any IPv4 address). The default value does not include IPv6 sources.
+
+# DNS Suffix
+GCP dns suffix can be any string, i.e "comp2"
+This is used while creating the dns records in dns zones
+existing dns zones can be checked under - GCP console -> cloud DNS
