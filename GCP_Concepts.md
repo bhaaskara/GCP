@@ -8,3 +8,7 @@
 # GCP Storage
 # GCP Acivity Logs
 GCP -> Project -> Acitvity
+
+# Vulnerability report
+To see vulnerabilities, compliance, threats in a rpoject
+Console -> security command centre
