@@ -17,3 +17,7 @@ Default source range: When you omit a source specification in an ingress rule, G
 GCP dns suffix can be any string, i.e "comp2"
 This is used while creating the dns records in dns zones
 existing dns zones can be checked under - GCP console -> cloud DNS
+
+# Logs not available
+Error: Logs are not showing.
+Resolution: Check the logsync is enabled or not in logs explorer.

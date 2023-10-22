@@ -10,5 +10,5 @@
 GCP -> Project -> Acitvity
 
 # Vulnerability report
-To see vulnerabilities, compliance, threats in a rpoject
+To see vulnerabilities, compliance, threats in a project
 Console -> security command centre

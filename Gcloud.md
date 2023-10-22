@@ -42,3 +42,9 @@ gsutil                   | 15.5 MiB |
 
 List all the buckets, folder and objects in a project
 `gsutil -o GSUtil:default_project_id=bt-gbl-pe-hws-dpn-dp-test du -shc`
+
+[gcloud storage cp ](https://cloud.google.com/sdk/gcloud/reference/storage/cp)
+will be replacement for gsutil.
+
+# Composers
+`gcloud composer environments list --project <proj ID>`
