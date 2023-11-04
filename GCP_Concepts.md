@@ -11,4 +11,5 @@ GCP -> Project -> Acitvity
 
 # Vulnerability report
 To see vulnerabilities, compliance, threats in a project
-Console -> security command centre
+GCP -> security command center
+Get the project -> check the vulnerability -> identify remediation
