@@ -48,3 +48,8 @@ will be replacement for gsutil.
 
 # Composers
 `gcloud composer environments list --project <proj ID>`
+
+# How to get the VPC ID
+on console go to VPC Networks
+select the VPC name
+click on equalent rest
