@@ -53,3 +53,7 @@ will be replacement for gsutil.
 on console go to VPC Networks
 select the VPC name
 click on equalent rest
+
+# Gcloud auth login
+login using credfile
+`gcloud auth login --cred-file=<file.json>`
