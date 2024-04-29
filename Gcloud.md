@@ -48,7 +48,8 @@ will be replacement for gsutil.
 
 # Composers
 `gcloud composer environments list --project <proj ID>`
-
+Upgrade the conposer
+`- gcloud beta composer environments update "composer-archtctdpn-dev" --location europe-west2 --image-version composer-2.6.5-airflow-2.6.3 --project="bt-btb-archtctdpn-dp-dev-proc" --quiet`
 # How to get the VPC ID
 on console go to VPC Networks
 select the VPC name
