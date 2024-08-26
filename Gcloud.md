@@ -41,15 +41,33 @@ gsutil                   | 15.5 MiB |
 # Cloud storage
 
 List all the buckets, folder and objects in a project
-`gsutil -o GSUtil:default_project_id=bt-gbl-pe-hws-dpn-dp-test du -shc`
+```
+gsutil -o GSUtil:default_project_id=bt-gbl-pe-hws-dpn-dp-test du -shc
+```
 
+```
+gcloud storage buckets list
+gcloud storage ls
+```
 [gcloud storage cp ](https://cloud.google.com/sdk/gcloud/reference/storage/cp)
 will be replacement for gsutil.
 
+delete a bucket
+- gcloud auth login --cred-file=$CI_PIPELINE_ID.json
+- gcloud config set project bt-gbl-central-en-c-proc
+- gsutil rm -r gs://europe-west2-composer-prod-c-6b33bef3-bucket-workforce
+```
 # Composers
 `gcloud composer environments list --project <proj ID>`
-Upgrade the conposer
+Upgrade the composer
 `- gcloud beta composer environments update "composer-archtctdpn-dev" --location europe-west2 --image-version composer-2.6.5-airflow-2.6.3 --project="bt-btb-archtctdpn-dp-dev-proc" --quiet`
+
+## Delete the routes
+```
+ - gcloud compute routes delete composer-env-private-route composer-env-restricted-route --quiet
+    # - gcloud compute routes delete composer-env-restricted-route --quiet
+    - gcloud compute routers delete composer-env-router --region=europe-west2 --project=bt-gbl-lglreg-c-proc --quiet
+```
 # How to get the VPC ID
 on console go to VPC Networks
 select the VPC name
