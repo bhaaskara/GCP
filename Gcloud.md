@@ -46,8 +46,8 @@ gsutil -o GSUtil:default_project_id=bt-gbl-pe-hws-dpn-dp-test du -shc
 ```
 
 ```
-gcloud storage buckets list
-gcloud storage ls
+gcloud storage buckets list # Detailed list
+gcloud storage ls # Just list the buckets
 ```
 [gcloud storage cp ](https://cloud.google.com/sdk/gcloud/reference/storage/cp)
 will be replacement for gsutil.
