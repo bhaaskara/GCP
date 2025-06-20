@@ -12,7 +12,8 @@ List of IAM roles assigned to the project
 1. Authenticate with GCP
 	`gcloud auth login`
 	Note: Above command opens a browser and login with your GCP credentials.
-2. List the projects accessible by the current user
+2. 
+3. List the projects accessible by the current user
 	`gcloud projects list`
 3. Set the project
 	`gcloud config set project PROJECT_ID`
@@ -76,3 +77,11 @@ click on equalent rest
 # Gcloud auth login
 login using credfile
 `gcloud auth login --cred-file=<file.json>`
+```
+# Cloud composer
+Upgrade the composer through CLI
+```
+- gcloud auth login --cred-file=$CI_PIPELINE_ID.json
+- gcloud config set project bt-gbl-produc-c-proc
+- gcloud beta composer environments update "composer-env-prod" --location europe-west2 --image-version composer-2.11.1-airflow-2.10.2 --project="bt-gbl-produc-c-proc" --quiet
+```
